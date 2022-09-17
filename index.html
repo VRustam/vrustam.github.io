@@ -776,19 +776,20 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
-                        <form action="#" class="contact-form mb-30">
+                        <form action="mail.php" class="contact-form mb-30" method="POST">
                             <div class="form-group mb-40">
-                                <label>Your Name <span>**</span></label>
-                                <input type="text" name="name" placeholder="Enter your name....">
+                                <label for="name">Your Name <span>**</span></label>
+                                <input id="name" type="text" name="name" placeholder="Enter your name....">
                             </div>
                             <div class="form-group mb-40">
-                                <label>Email address <span>**</span></label>
-                                <input type="email" name="email" placeholder="Enter your email address....">
+                                <label for="email">Email address <span>**</span></label>
+                                <input id="email" type="email" name="email" placeholder="Enter your email address....">
                             </div>
                             <div class="form-group mb-40">
-                                <label>Message <span>**</span></label>
-                                <textarea name="message" class="" placeholder="Enter your message"
-                                    id="exampleFormControlTextarea1" cols="30" rows="3"></textarea>
+                                <label for="message">Message <span>**</span></label>
+
+                                <textarea cols="30" id="message" name="message"
+                                          placeholder="Enter your message" rows="3"></textarea>
                             </div>
                             <div class="form-btn">
                                 <button type="submit" class="btn"><i class="far fa-user mr-2"></i>Get A
