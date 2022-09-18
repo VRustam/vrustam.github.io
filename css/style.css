@@ -524,25 +524,27 @@ label {
 	transition: .3s;
 	font-size: 14px;
 	margin: 0 15px;
+	padding: 5px;
 	cursor: pointer;
 	outline: none;
 	color: #000a2d;
 	font-weight: 500;
 	position: relative;
 }
-.button-group button:hover {
+ .button-group button:hover {
 	color: #ff3d4f;
 }
 .button-group button.active {
 	color: #ff3d4f;
 }
+
 .button-group button:before {
 	position: absolute;
 	content: "";
 	width: 0%;
 	height: 2px;
 	background: #ff3d4f;
-	bottom: -17px;
+	bottom: -3px;
 	left: 0;
 	transition: .3s;
 }
@@ -1166,3 +1168,5 @@ label {
 	margin: 0;
 	margin-bottom: 2px;
 }
+
+
