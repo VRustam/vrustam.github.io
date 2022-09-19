@@ -528,6 +528,7 @@ label {
 	cursor: pointer;
 	outline: none;
 	color: #000a2d;
+
 	font-weight: 500;
 	position: relative;
 }
@@ -704,11 +705,20 @@ label {
 /* 9. Education */
 .education-header h4 {
 	font-size: 14px;
-	color: #ff3d4f;
+	color: black;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	margin-bottom: 20px;
 }
+.education-header a  h4:hover {
+	color: #ff3d4f;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+
+}
+
 .education-header h1 {
 	font-size: 26px;
 	margin-bottom: 22px;
